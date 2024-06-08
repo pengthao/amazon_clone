@@ -1,0 +1,2 @@
+app.js <Header /> can use the tag that is the function from js file
+smart to work on chunks and naming conventions are super important.
