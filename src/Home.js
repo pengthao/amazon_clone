@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Product from "./Product";
 
 function Home() {
   return (
@@ -12,18 +13,31 @@ function Home() {
         />
 
         <div className="home__row">
-            {/*product */}
-            {/*product */}
+            <Product
+                id="12345"
+                title="The Lean Startup"
+                price={29.99}
+                image="https://m.media-amazon.com/images/I/61BFOf9Ap-L._SL1200_.jpg"
+                rating={5}
+            />
+            <Product 
+            id="12345"
+            title="Stanley Cup"
+            price={45.00}
+            image="https://m.media-amazon.com/images/I/51bUETp1j1L._AC_SL1500_.jpg"
+            rating={4}
+            
+            />
         </div>
 
         <div className="home__row">
-            {/*product */}
-            {/*product */}
-            {/*product */}
+            <Product />
+            <Product />
+            <Product />
         </div>
 
         <div className="home__row">
-            {/*product */}
+            <Product />
         </div>
 
       </div>
